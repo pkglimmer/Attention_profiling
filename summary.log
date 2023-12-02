@@ -1,0 +1,318 @@
+Config: W1_N1024_D64_H4_B16
+Computation cost:
+step 0 time: 0.349s 	 step time percentage: 5.67%
+0.349 (5.67%)
+step 1 time: 2.352s 	 step time percentage: 38.23%
+2.352 (38.23%)
+step 2 time: 0.000s 	 step time percentage: 0.00%
+0.000 (0.00%)
+step 3 time: 0.663s 	 step time percentage: 10.79%
+0.663 (10.79%)
+step 4 time: 0.727s 	 step time percentage: 11.83%
+0.727 (11.83%)
+step 5 time: 0.812s 	 step time percentage: 13.21%
+0.812 (13.21%)
+step 6 time: 0.263s 	 step time percentage: 4.28%
+0.263 (4.28%)
+Total time: 44.270, CPU time: 6.149, CUDA time: 38.121
+
+
+Config: W1_N2048_D64_H4_B16
+Computation cost:
+step 0 time: 0.443s 	 step time percentage: 4.24%
+0.443 (4.24%)
+step 1 time: 4.222s 	 step time percentage: 40.38%
+4.222 (40.38%)
+step 2 time: 0.828s 	 step time percentage: 7.92%
+0.828 (7.92%)
+step 3 time: 0.062s 	 step time percentage: 0.59%
+0.062 (0.59%)
+step 4 time: 1.265s 	 step time percentage: 12.09%
+1.265 (12.09%)
+step 5 time: 1.387s 	 step time percentage: 13.27%
+1.387 (13.27%)
+step 6 time: 0.438s 	 step time percentage: 4.19%
+0.438 (4.19%)
+Total time: 55.420, CPU time: 10.455, CUDA time: 44.965
+
+
+Config: W1_N256_D64_H4_B16
+Computation cost:
+step 0 time: 0.715s 	 step time percentage: 31.98%
+0.715 (31.98%)
+step 1 time: 0.513s 	 step time percentage: 22.94%
+0.513 (22.94%)
+step 2 time: 0.000s 	 step time percentage: 0.00%
+0.000 (0.00%)
+step 3 time: 0.202s 	 step time percentage: 9.05%
+0.202 (9.05%)
+step 4 time: 0.366s 	 step time percentage: 16.36%
+0.366 (16.36%)
+step 5 time: 0.103s 	 step time percentage: 4.61%
+0.103 (4.61%)
+step 6 time: 0.000s 	 step time percentage: 0.00%
+0.000 (0.00%)
+Total time: 4.399, CPU time: 2.237, CUDA time: 2.162
+
+
+Config: W1_N512_D64_H4_B16
+Computation cost:
+step 0 time: 0.657s 	 step time percentage: 12.70%
+0.657 (12.70%)
+step 1 time: 2.248s 	 step time percentage: 43.45%
+2.248 (43.45%)
+step 2 time: 0.051s 	 step time percentage: 0.99%
+0.051 (0.99%)
+step 3 time: 0.432s 	 step time percentage: 8.34%
+0.432 (8.34%)
+step 4 time: 0.705s 	 step time percentage: 13.63%
+0.705 (13.63%)
+step 5 time: 0.176s 	 step time percentage: 3.41%
+0.176 (3.41%)
+step 6 time: 0.000s 	 step time percentage: 0.00%
+0.000 (0.00%)
+Total time: 7.909, CPU time: 5.172, CUDA time: 2.737
+
+
+Config: W2_N1024_D64_H4_B16
+Computation cost:
+step 0 time: 1.065s 	 step time percentage: 5.82%
+1.065 (5.82%)
+step 1 time: 8.149s 	 step time percentage: 44.57%
+8.149 (44.57%)
+step 2 time: 0.452s 	 step time percentage: 2.47%
+0.452 (2.47%)
+step 3 time: 0.385s 	 step time percentage: 2.11%
+0.385 (2.11%)
+step 4 time: 0.609s 	 step time percentage: 3.32%
+0.609 (3.32%)
+step 5 time: 0.656s 	 step time percentage: 3.59%
+0.656 (3.59%)
+step 6 time: 0.476s 	 step time percentage: 2.60%
+0.476 (2.60%)
+Communication cost:
+Reduce time: 0.798s 	 reduce time percentage: 4.36%
+Gather time: 5.693s 	 reduce time percentage: 31.14%
+Total time: 30.727, CPU time: 18.286, CUDA time: 12.441
+
+
+Config: W2_N2048_D64_H4_B16
+Computation cost:
+step 0 time: 1.853s 	 step time percentage: 7.09%
+1.853 (7.09%)
+step 1 time: 2.068s 	 step time percentage: 7.91%
+2.068 (7.91%)
+step 2 time: 0.880s 	 step time percentage: 3.37%
+0.880 (3.37%)
+step 3 time: 0.668s 	 step time percentage: 2.56%
+0.668 (2.56%)
+step 4 time: 0.998s 	 step time percentage: 3.82%
+0.998 (3.82%)
+step 5 time: 1.073s 	 step time percentage: 4.11%
+1.073 (4.11%)
+step 6 time: 0.823s 	 step time percentage: 3.15%
+0.823 (3.15%)
+Communication cost:
+Reduce time: 8.922s 	 reduce time percentage: 34.14%
+Gather time: 8.849s 	 reduce time percentage: 33.86%
+Total time: 45.704, CPU time: 26.133, CUDA time: 19.571
+
+
+Config: W2_N256_D64_H4_B16
+Computation cost:
+step 0 time: 0.266s 	 step time percentage: 2.41%
+0.266 (2.41%)
+step 1 time: 0.501s 	 step time percentage: 4.53%
+0.501 (4.53%)
+step 2 time: 0.091s 	 step time percentage: 0.82%
+0.091 (0.82%)
+step 3 time: 0.142s 	 step time percentage: 1.28%
+0.142 (1.28%)
+step 4 time: 0.272s 	 step time percentage: 2.46%
+0.272 (2.46%)
+step 5 time: 0.272s 	 step time percentage: 2.46%
+0.272 (2.46%)
+step 6 time: 0.166s 	 step time percentage: 1.51%
+0.166 (1.51%)
+Communication cost:
+Reduce time: 5.494s 	 reduce time percentage: 49.75%
+Gather time: 3.838s 	 reduce time percentage: 34.76%
+Total time: 15.913, CPU time: 11.041, CUDA time: 4.872
+
+
+Config: W2_N4096_D64_H4_B16
+Computation cost:
+step 0 time: 3.524s 	 step time percentage: 8.19%
+3.524 (8.19%)
+step 1 time: 4.438s 	 step time percentage: 10.31%
+4.438 (10.31%)
+step 2 time: 1.791s 	 step time percentage: 4.16%
+1.791 (4.16%)
+step 3 time: 1.145s 	 step time percentage: 2.66%
+1.145 (2.66%)
+step 4 time: 1.776s 	 step time percentage: 4.13%
+1.776 (4.13%)
+step 5 time: 1.988s 	 step time percentage: 4.62%
+1.988 (4.62%)
+step 6 time: 1.582s 	 step time percentage: 3.67%
+1.582 (3.67%)
+Communication cost:
+Reduce time: 9.340s 	 reduce time percentage: 21.71%
+Gather time: 17.437s 	 reduce time percentage: 40.53%
+Total time: 78.111, CPU time: 43.022, CUDA time: 35.089
+
+
+Config: W2_N512_D64_H4_B16
+Computation cost:
+step 0 time: 0.991s 	 step time percentage: 7.64%
+0.991 (7.64%)
+step 1 time: 0.367s 	 step time percentage: 2.83%
+0.367 (2.83%)
+step 2 time: 0.161s 	 step time percentage: 1.24%
+0.161 (1.24%)
+step 3 time: 0.264s 	 step time percentage: 2.03%
+0.264 (2.03%)
+step 4 time: 0.376s 	 step time percentage: 2.90%
+0.376 (2.90%)
+step 5 time: 0.364s 	 step time percentage: 2.81%
+0.364 (2.81%)
+step 6 time: 0.235s 	 step time percentage: 1.81%
+0.235 (1.81%)
+Communication cost:
+Reduce time: 5.992s 	 reduce time percentage: 46.20%
+Gather time: 4.220s 	 reduce time percentage: 32.54%
+Total time: 19.595, CPU time: 12.970, CUDA time: 6.625
+
+
+Config: W4_N1024_D64_H4_B16
+Computation cost:
+step 0 time: 1.079s 	 step time percentage: 3.21%
+1.079 (3.21%)
+step 1 time: 0.411s 	 step time percentage: 1.21%
+0.411 (1.21%)
+step 2 time: 0.191s 	 step time percentage: 0.57%
+0.191 (0.57%)
+step 3 time: 0.424s 	 step time percentage: 1.26%
+0.424 (1.26%)
+step 4 time: 0.408s 	 step time percentage: 1.22%
+0.408 (1.22%)
+step 5 time: 0.437s 	 step time percentage: 1.29%
+0.437 (1.29%)
+step 6 time: 0.442s 	 step time percentage: 1.32%
+0.442 (1.32%)
+Communication cost:
+Reduce time: 19.231s 	 reduce time percentage: 57.09%
+Gather time: 11.065s 	 reduce time percentage: 32.85%
+Total time: 58.981, CPU time: 33.687, CUDA time: 25.294
+
+
+Config: W4_N2048_D64_H4_B16
+Computation cost:
+step 0 time: 1.041s 	 step time percentage: 2.81%
+1.041 (2.81%)
+step 1 time: 1.585s 	 step time percentage: 4.28%
+1.585 (4.28%)
+step 2 time: 0.419s 	 step time percentage: 1.13%
+0.419 (1.13%)
+step 3 time: 0.678s 	 step time percentage: 1.83%
+0.678 (1.83%)
+step 4 time: 0.567s 	 step time percentage: 1.53%
+0.567 (1.53%)
+step 5 time: 0.609s 	 step time percentage: 1.65%
+0.609 (1.65%)
+step 6 time: 0.722s 	 step time percentage: 1.95%
+0.722 (1.95%)
+Communication cost:
+Reduce time: 19.615s 	 reduce time percentage: 53.00%
+Gather time: 11.774s 	 reduce time percentage: 31.81%
+Total time: 67.263, CPU time: 37.009, CUDA time: 30.254
+
+
+Config: W4_N256_D64_H4_B16
+Computation cost:
+step 0 time: 0.211s 	 step time percentage: 0.72%
+0.211 (0.72%)
+step 1 time: 18.602s 	 step time percentage: 63.96%
+18.602 (63.96%)
+step 2 time: 0.078s 	 step time percentage: 0.27%
+0.078 (0.27%)
+step 3 time: 0.198s 	 step time percentage: 0.68%
+0.198 (0.68%)
+step 4 time: 0.241s 	 step time percentage: 0.83%
+0.241 (0.83%)
+step 5 time: 0.237s 	 step time percentage: 0.81%
+0.237 (0.81%)
+step 6 time: 0.236s 	 step time percentage: 0.81%
+0.236 (0.81%)
+Communication cost:
+Reduce time: 0.179s 	 reduce time percentage: 0.62%
+Gather time: 9.096s 	 reduce time percentage: 31.28%
+Total time: 50.122, CPU time: 29.079, CUDA time: 21.043
+
+
+Config: W4_N4096_D64_H4_B16
+Computation cost:
+step 0 time: 1.871s 	 step time percentage: 3.72%
+1.871 (3.72%)
+step 1 time: 2.377s 	 step time percentage: 4.72%
+2.377 (4.72%)
+step 2 time: 0.844s 	 step time percentage: 1.68%
+0.844 (1.68%)
+step 3 time: 1.238s 	 step time percentage: 2.46%
+1.238 (2.46%)
+step 4 time: 0.977s 	 step time percentage: 1.94%
+0.977 (1.94%)
+step 5 time: 1.119s 	 step time percentage: 2.23%
+1.119 (2.23%)
+step 6 time: 1.373s 	 step time percentage: 2.72%
+1.373 (2.72%)
+Communication cost:
+Reduce time: 24.212s 	 reduce time percentage: 48.10%
+Gather time: 16.327s 	 reduce time percentage: 32.43%
+Total time: 92.350, CPU time: 50.339, CUDA time: 42.011
+
+
+Config: W4_N512_D64_H4_B16
+Computation cost:
+step 0 time: 0.575s 	 step time percentage: 1.77%
+0.575 (1.77%)
+step 1 time: 0.376s 	 step time percentage: 1.16%
+0.376 (1.16%)
+step 2 time: 0.218s 	 step time percentage: 0.67%
+0.218 (0.67%)
+step 3 time: 0.000s 	 step time percentage: 0.00%
+0.000 (0.00%)
+step 4 time: 0.288s 	 step time percentage: 0.89%
+0.288 (0.89%)
+step 5 time: 0.279s 	 step time percentage: 0.86%
+0.279 (0.86%)
+step 6 time: 0.275s 	 step time percentage: 0.84%
+0.275 (0.84%)
+Communication cost:
+Reduce time: 20.373s 	 reduce time percentage: 62.79%
+Gather time: 10.063s 	 reduce time percentage: 31.01%
+Total time: 58.147, CPU time: 32.446, CUDA time: 25.701
+
+
+Config: W4_N8192_D64_H4_B16
+Computation cost:
+step 0 time: 3.520s 	 step time percentage: 5.02%
+3.520 (5.02%)
+step 1 time: 5.960s 	 step time percentage: 8.50%
+5.960 (8.50%)
+step 2 time: 0.000s 	 step time percentage: 0.00%
+0.000 (0.00%)
+step 3 time: 2.508s 	 step time percentage: 3.58%
+2.508 (3.58%)
+step 4 time: 1.643s 	 step time percentage: 2.34%
+1.643 (2.34%)
+step 5 time: 1.902s 	 step time percentage: 2.71%
+1.902 (2.71%)
+step 6 time: 2.512s 	 step time percentage: 3.59%
+2.512 (3.59%)
+Communication cost:
+Reduce time: 29.656s 	 reduce time percentage: 42.30%
+Gather time: 22.407s 	 reduce time percentage: 31.96%
+Total time: 132.387, CPU time: 70.108, CUDA time: 62.279
+
+
